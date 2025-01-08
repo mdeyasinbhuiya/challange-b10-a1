@@ -142,7 +142,7 @@ body{
 /* section three strat */
 .section-three{
     width: 1140px;
-    height: 1437px;
+    height: 1800px;
     margin: auto;
     margin-top: 150px;
 }
@@ -222,20 +222,54 @@ body{
 }
 /* section three style complete */
 /* footer start */
-/* .footer-body{
-    background-image: url("assets/handshake.jpg");
-    height: 313px;
+.banner-section{
     width: 1140px;
-    /* justify-content: center; */
-    /* background-repeat: no-repeat;
+    height: 313px;
+    background-image: url("assets/handshake.jpg");
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto 30px;
+    border-radius: 16px;
     text-align: center;
-    margin: auto;
+    justify-content: center;
     
+    
+    
+    
+
 }
-.footer-banner{
-    margin: auto;
-    padding: auto;
+.banner-discription{
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+    font-weight: bold;
+}
+.message{
+   
+}
+input{
+    /* text-align: center; */
+    margin-bottom: 100px;
+    margin-top: 10px;
+    padding:10px 30px;
+    border-radius: 8px;
+font-weight: bold;
+background-color: white; 
+}
+.link-section{
+    width: auto;
+    height: 50px;
+    background-color: rgb(215, 207, 207);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-} */ 
+}
+img{
+margin-right: 30px;
+}
+.commitment{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.647);
+    margin-left: 30px;
+}
