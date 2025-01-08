@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", serif; */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family:"Work Sans", serif;
+}
+.nav-container{
+    display: flex;
+    
+    gap: 760px;
+    margin:50px 150px 20px;
+    justify-content: center;
+}
+.nav-btn{
+    font-size: 20;
+    font-weight: 600;
+    padding: 17px 24px;
+    color: #0D1321;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid gray;
+}
+.nav-title{
+    font-size: 28px;
+    font-weight: 800;
+}
+/* nav style complete */
+/* banner style start */
+.banner{
+    height: 70vh;
+    background-image: url("assets/Hero-bg.png");
+    padding-top: 26px;
+    
+}
+.banner-contant{
+    text-align: center;
+    width: 990px;
+    height: 580px;
+    margin: 26px auto;
+}
+.banner-title{
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 800;
+}
+.banner-description{
+    width: 850px;
+    font-size: 16px;
+    color: #0D1321;
+    line-height: 26px;
+    margin: auto;
+}
+/* banner style complete */
+/* section style start */
+.section-one{
+    width: 1140px;
+    height: 1393px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 74px auto;
+    
+}
+.section-info{
+    text-align: center;
+    padding: 80px;
+    width: 850px;
+    height: 112px;
+    margin: auto;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.section-decription{
+    font-size: 16;
+    line-height: 26;
+    color: rgba(13, 19, 33, 1);
+    margin-bottom: 48px;
+}
+.article{
+    display: flex;
+    margin: 32px auto;
+    width: 946px;
+    height: 336px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+
+}
+.article-container{
+    width: 400px;
+    height: 219px;
+
+
+}
+.article-title{
+    font-size: 24;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.article-discription{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 32px;
+}
+.article-btn{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, .7);
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px 10px;
+
+}
+/* section one style complete */
+/* section tow style start */
+.section-tow{
+    width: 1140px;
+    height: 874px;
+    text-align: center;
+    margin: auto;
+}
+.yt-link{
+    padding: 25px;
+    border: 1px solid black;
+    width: 1140px;
+    height: 614px;
+    border-radius: 10px;
+}
+/* section tow complete */
+/* section three strat */
+.section-three{
+    width: 1140px;
+    height: 1437px;
+    margin: auto;
+    margin-top: 150px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+    
+    width: 1140px;
+    height: 462px;
+    justify-content: center;
+    align-items: center;
+}
+.card-info{
+    padding: 24px;
+ 
+}
+.card-title{
+    font-size: 24px ;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+}
+.card-discroption{
+    font-size:16px ;
+    font-weight:400 ;
+    line-height: 26px;
+    color: rgba(13, 19, 33, 0.7);
+    margin-top: 8px;
+    
+}
+.card-anchor{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    
+}
+.anchor{
+    margin-top: 24px;
+}
+.card-color-1{
+    background-color: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 299px;
+    margin: 81px 0px;
+    border-radius: 16px;
+    
+}
+.card-color-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 299px;
+    margin: 81px 0px;
+    border-radius: 16px;
+}
+.card-color-3{
+    background-color: rgba(255, 221, 0, 0.192);
+    width: 364px;
+    height: 299px;
+    margin: 81px 0px;
+    border-radius: 16px;
+}
+/* my next target */
+
+
+.topic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 18px;
+    margin-top: 24px;
+    padding: 40px;
+    background-color: aqua;
+}
+.topic-icon{
+    width: 150px;
+}
+/* section three style complete */
+/* footer start */
+/* .footer-body{
+    background-image: url("assets/handshake.jpg");
+    height: 313px;
+    width: 1140px;
+    /* justify-content: center; */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    
+}
+.footer-banner{
+    margin: auto;
+    padding: auto;
+    align-items: center;
+} */ 
